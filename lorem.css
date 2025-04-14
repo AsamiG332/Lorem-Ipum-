@@ -1,44 +1,112 @@
-body{ 
+*body{
     margin: 0;
     padding: 0;
 }
 
+
+
 .text1{ 
-    font-size:30px;
-    font-weight:700;
-    text-align: center;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+     font-family: "Dauphin";
+     font-size: 70px;
+     line-height: 90px   ;
+
 }
 
-.text2{ 
-    text-align: center;
-    font-family: sans-serif;
-}
-
-/* .section1{ 
+.navtext1{      
     display: flex;
-    justify-content: space-between; */
+    align-items: center;
+    flex-direction: column;
+    /* border: blue; */
+    gap: 20 px;
+}
 
-
-.text3{ 
-    text-align: center;
+.bodytext{ 
+    display: flex;
+    justify-content: space-between;     
+    align-items: center;
+    gap: 50px; */
     
 }
-.main{ 
+
+.h2text{ 
     display: flex;
-    justify-content:space-between;
-    padding: 50px;
-    width: 90%;
-    /* gap: 80px; */
+    flex-direction: column;
+    gap: 0px;
+   margin-top: 50px;
+}
+
+.p1{ 
+    font-family:Open Sans Light', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}   
+
+.bodytext1{ 
+    display: flex;
+    justify-content: space-between  ;
 }
 
 .submain{ 
-    text-align: center;
-
+    
+    width: 78%; 
+    justify-content: space-between;
+    align-items: center;
+    
 }
 
-.List{ 
+.bodytext1{
+    display: flex;
+    justify-content: space-between; 
+    
+    align-items: center;
+    gap: 40px;
+    
+}
+
+
+.bodytext2{ 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 40px; 
+}
+
+
+.p2{
+    font-family:Open Sans Light', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.form{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center ;
+}
+
+.h2sub{ 
+    font-family: "Dauphin";
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.last{ 
+    display: flex;
+    flex-direction: column;
+}
+
+#square{ 
+    background-color: white;
+cursor: pointer;
+}
+
+#square:hover{ 
+    background-color: rgb(196, 195, 195);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
